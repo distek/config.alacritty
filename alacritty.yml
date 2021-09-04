@@ -38,14 +38,14 @@ font:
     family: Hack Nerd Font Mono
     style: Bold Italic
 
-  size: 12
+  size: 7
 
   offset:
     x: 0
     y: 0
 
   glyph_offset:
-    x: -1
+    x: 0
     y: 0
 
 #draw_bold_text_with_bright_colors: true
@@ -85,4 +85,5 @@ mouse:
   hide_when_typing: true
 
 key_bindings:
-  - { key: N,              mods: Shift|Control,            action: SpawnNewInstance }
+  - { key: N, mods: Shift|Control, action: SpawnNewInstance }
+  - { key: Plus, mods: Shift|Control, action: IncreaseFontSize}
